@@ -1,0 +1,1821 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<root>
+<FormatVersion>2</FormatVersion>
+  
+<!--##############################################################
+
+    Localization file for QTTabBar ver 1036 ( 2015-12-03 )
+
+                * {0} is used as a placeholder
+                * [[|]] is used to represent singular/plural expressions.
+                  ex. ind[[ex|ices]], folder[[|s]]
+                * Empty or missing lines will be filled by QTTabBar with default English resources.
+                * This file is not compatible with QTTabBars earlier than ver 128.
+
+    ##############################################################-->
+
+<!--Indicates the target version of QTTabBar-->
+<Version>1036</Version>
+
+<!--META DATA-->
+<Author>André Zanghelini (An_dz)</Author>
+<Revision>15</Revision>
+<Locale>pt-BR</Locale>
+<Contact>https://github.com/An-dz/QTTabBar.pt_br</Contact>
+<DateModified>22/11/2018 23:32:16</DateModified>
+<EditorVersion>1.0.0.5</EditorVersion>
+
+<!--DATA START-->
+<ButtonBarButtons>
+Separador
+Voltar
+Avançar
+Grupos
+Guias Recentes
+Executar Aplicativo
+Guia em Nova Janela
+Clonar Guia
+Fixar
+Ferramentas de Cópia
+Sempre Visível
+Fechar Guia
+Fechar Outras Guias
+Fechar Janela
+Fechar à Esquerda
+Fechar à Direita
+Ir à Pasta Pai
+Atualizar
+Pesquisa
+Opções
+Arquivos Recentes
+Opacidade
+Desabilitar Visualização de Mídia
+Caixa de Filtro
+</ButtonBarButtons>
+
+
+<ButtonBarMenu>
+&amp;Personalizar...
+B&amp;loquear itens
+Endereços da seleção
+Nomes da seleção
+Endereço da pasta atual
+Nome da pasta atual
+Calcular hash da seleção
+Endereço de todas as guias
+Pasta atual
+(Múltiplos itens)
+Iniciar em
+Desabilitar imagens
+Desabilitar mídia
+Desabilitar textos
+Sem sub-itens
+</ButtonBarMenu>
+
+
+<ButtonBarTooltip>
+Voltar para {0} (Alt+seta para esquerda)
+Avançar para {0} (Alt+seta para direita)
+Pastas Recentes
+Grupos com atalhos para pastas.
+Pastas abertas recentemente.
+Atalhos para aplicativos.
+Abre esta guia em outra janela.
+Clona esta guia na mesma janela.
+Fixa/Desafixa esta guia prevenindo de fechar.
+Menu para copiar endereço, arquivos, nomes, etc.
+Matém a janela sobreposta as outras.
+Fecha a guia aberta.
+Fecha todas as guias menos a ativa.
+Fecha esta janela.
+Fecha as guias à esquerda desta.
+Fecha as guias à direita desta.
+Vai à pasta pai.
+Atualiza a guia.
+Abre uma pesquina em uma guia.
+Abre as opções do QTTabBar.
+Arquivos acessados recentemente.
+Define a transparência da janela.
+Habilita/desabilita a visualização de mídia.
+Filtra os arquivos e pasta pelo texto.
+Copia os endereços dos selecionados para área de transferência.
+Copia os nomes dos selecionados para área de transferência.
+Copia o endereço desta pasta para área de transferência.
+Copia o nome desta pasta para área de transferência.
+Calcula e exibe o hash dos selecionados.
+Copia o endereço de todas as guias para área de transferência.
+Abrir as as configurações para editar os botões.
+Não permitir organizar os itens nos menus de grupo e aplicativo.
+Desabilita a visualização para imagens.
+Desabilita a visualização para músicas e vídeos.
+Desabilita a visualização para textos.
+Arraste botoes para esta pasta para adioná-los como sub-itens.
+</ButtonBarTooltip>
+
+
+<CommandBarDragDrop>
+Criar um botão aqui
+Mover o botão aqui
+Copiar o botão aqui
+Esta barra está bloqueada
+Mover o botão e criar um sub-item
+Copiar o botão e criar um sub-item
+Aguarde pelo menu de contexto
+</CommandBarDragDrop>
+
+
+<CommandBarDialog>
+Você está adicionando {0} à barra de comandos.\r\nDeseja continuar?
+</CommandBarDialog>
+
+
+<CommandBarEditor>
+Editar comando
+Novo comando
+Geral
+Sub-itens
+Tipo de comando:
+Tipo de botão:
+Ícone:
+Atalho de teclado:
+Exibir texto
+Exibir ícone
+Opções
+Comando
+Comando
+Argumentos
+Comandos
+Detalhes
+Destino
+Argumentos
+Iniciar em
+Verbs
+Ação
+Tempo limite da rede
+Ignorar a resolução de endereço de rede
+Permitir arrastar &amp; soltar para este item
+Expandir arquivos nesta para ao invés dos sub-itens
+Grupo
+Ação
+Expandir membros do grupo ao invés dos sub-itens
+Novo item
+Fixar no canto superior esquerdo
+Associar à Visualização:
+Não especificada
+Padrão
+Extra (abaixo)
+Extra (esquerda)
+Nome do grupo para adicionar
+Tamanho da janela:
+Scripting
+Se este comando executa um script, o QTTabBar irá aguardar até o script terminar para receber o valor.
+Aguardar até o script terminar
+Timeout (em ms)
+Sub-menu:
+Sem sub-menu
+Expandir
+</CommandBarEditor>
+
+
+<CommandBarFileAction>
+Padrão
+Nova guia
+Nova guia em segundo plano
+Abrir na guia atual
+Nova janela
+Executar pelo shell
+</CommandBarFileAction>
+
+
+<CommandBarGroupAction>
+Padrão
+Segundo plano
+Nova janela
+Substituir
+</CommandBarGroupAction>
+
+
+<CommandBarSubType>
+Botão
+Botão de menu suspenso
+Botão separador
+</CommandBarSubType>
+
+
+<CommandBarType>
+Comando básico
+Comando
+Arquivo &amp; pasta
+Grupo
+Plugin
+</CommandBarType>
+
+
+<CommandBarWindowSize>
+Normal
+Maximizada
+Minimizada
+Escondida
+</CommandBarWindowSize>
+
+
+<CommandTokens>
+Retornar valor do comando filho
+Retornar valor do comando filho{0}
+Retornar valor do comando irmão
+Retornar valor do comando irmão{0}
+Valor no slot de dados{0}
+Uma expressão dos dados do evento
+ Valor de chave para obter os dados do evento
+Negar uma expressão booleana
+</CommandTokens>
+
+
+<DefaultFont>
+Segoe UI
+9
+</DefaultFont>
+
+
+<DesktopTool>
+Habilitar menu na barra de tarefas
+Habilitar menu na área de trabalho
+Bloquear itens
+Habilitar imagem de fundo
+Clique simples no ícone
+Habilitar atalhos de teclado para aplicativos
+Opacidade do menu
+Grupos
+Guias recentes
+Aplicativos
+Arquivos recentes
+Arquivos da área de trabalho
+Clique simples na área de trabalho
+Clique com botão do meio na área de trabalho
+Membros do menu
+Como exibir o menu
+Clique duplo na área de trabalho
+</DesktopTool>
+
+
+<Dialog>
+Não exibir este tipo de mensagem novamente
+Procurando por {0}...
+Renomear a pasta atual
+</Dialog>
+
+
+<DialogAppLauncher>
+Tem certeza que deseja remover &quot;{0}&quot; da lista de aplicativos?
+Remover aplicativo da lista
+</DialogAppLauncher>
+
+
+<DialogButtons>
+&amp;OK
+&amp;Cancelar
+Ap&amp;licar
+Pa&amp;drão
+&amp;Sim
+&amp;Não
+&amp;Repetir
+&amp;Fechar
+L&amp;impar
+Atualiza&amp;r
+&amp;Parar
+&amp;Diagnóstico
+&amp;Subir
+D&amp;escer
+S&amp;ubstituir
+Refa&amp;zer
+&amp;Editar
+&amp;Clonar
+</DialogButtons>
+
+
+<DialogCopyMove>
+Copiar - 
+Mover - 
+Criar atalhos - 
+Nenhuma guia para destino encontrada.
+Escolha arquivos e pastas para copiar para &apos;{0}&apos;
+Escolha arquivos e pastas para mover para &apos;{0}&apos;
+Escolha arquivos e pastas para criar atalhos em &apos;{0}&apos;
+Selecionar todas
+Pasta de destino
+E&amp;xecutar
+Exibir - Lista
+Exibir - Conteúdo
+Copiar estrutura para guia:
+</DialogCopyMove>
+
+
+<DialogError>
+Erro
+QTTabBar não consegui navegar para:\r\n\r\n {0}.
+O destino de {0} não foi encontrado.
+{0} não foi encontrado.
+O seguinte grupo não foi encontrado:
+O seguinte grupos contém membros inválidos:
+Os seguintes grupos que estão vazios ou contém membros inválidos:
+Os seguintes arquivos de grupo estão vazios ou contém grupos com nomes inválidos:
+Arquivo vazio.
+Erro de leitura/gravação (IO error).
+Acesso não autorizado.
+Por favor verifique se o QTTabBar está habilitado.
+Não exibir este tipo de erro novamente
+Imagem inválida.\r\n\r\nPor favor especifique um arquivo de 432 x 40 ou 480 × 40  pixels.
+O aplicativo contém argumentos, ou a pasta contém palavras-chave. Mas o QTTabBar falhou ao trocá-las.
+A Barra de Comandos levou {0} segundos para criar os botões.\r\nHá a possibilidade de haver itens inválidos ou em alguma rede lenta.
+Este item não pode ser adicionado na barra.
+A operação falhou com o seguinte erro:
+A visualização extra não pode exibir &quot;{0}&quot; do Painel de Controle.
+Você quer abrir a gaveta do disco?
+Talvez esta janela do Explorer foi aberta com o comando /root.
+</DialogError>
+
+
+<DialogFileHashComputer>
+completo
+Abortado
+Calculando hash {0}/{1}
+Hash colado na área de tranferência com sucesso
+Endereço
+Hash
+&amp;Opções
+Endereço completo
+Limpar ao fechar
+Sempre visível
+ (Calculando...)
+Erro ao abrir arquivo.
+Cancelado
+Aguardando...
+Opacidade
+</DialogFileHashComputer>
+
+
+<DialogFileRenamer>
+Renomear
+Pasta atual:
+Localizar:
+Substituir por:
+Opções
+Escopo
+Diferenciar maiúsculas de minúsculas
+Regular Expressions
+Incluir sub-pastas
+Profundidade
+Tudo na pasta
+Itens selecionados
+Alvo
+Pastas e Arquivos
+Pastas
+Arquivos
+Conflitos
+Confirmar
+Automático
+Manter o mais novo
+Profundidade máxima de sub-pastas. 0 = ilimitado
+Localizando...
+Processando...
+Sucesso {0}
+Sucesso {0}, Falha {1}
+^\tInício do nome do arquivo
+$\tFim do nome do arquivo
+.\tQuaisquer caractere
+[]\tQuaisquer caractere dentro do grupo
+[^]\tQuaisquer caracter fora do grupo
+\s\tEspaço
+\d\tDígito decimal
+*\tZero ou mais vezes
++\tUma ou mais vezes
+?\tZero ou uma vez
+{n,m}\tn à m vezes
+*?\tZero ou mais vezes (Menor Conformidade)
++?\tUma ou mais vezes (Menor Conformidade)
+??\tZero ou uma vez (Menor Conformidade)
+{n,m}?\tn à m vezes (Menor Conformidade)
+()\tGrupo
+|\tou
+$1\tGrupo capturado 1
+$2\tGrupo capturado 2
+$3\tGrupo capturado 3
+$n\tGrupo capturado n
+$&amp;\tExpressão pesquisada
+$_\tTodo o nome do arquivo
+$`\tParte do nome anterior o pesquisado
+$&apos;\tParte do nome após o pesquisado
+$+\tÚltimo grupo capturado
+$$\tCaractere &quot;$&quot; literal
+Números sequenciais
+Iniciar
+Incrementar
+Reiniciar em subpastas
+?\tNúmero sequencial
+??\tNúmero sequencial de ao menos 2 dígitos
+???\tNúmero sequencial de ao menos 3 dígitos
+Regular expression inválida
+Nome original
+Novo nome
+Pasta
+Data de modificação
+Data de criação
+Tamanho
+Tipo
+Renomear
+Arquivo
+Opções
+Usar a pasta aberta na janela do Explorer
+Sempre no topo
+Abrir pasta...
+Fechar
+Predefinidos
+Modificar extensões em lote (abc -&gt; xyz)
+Modificar extensões em lote (Todas -&gt; xyz)
+Substituição
+Lista
+Filtro:
+Lista de novos nomes:
+Manter extensão do arquivo
+Nome inválido.
+$x\tExtensão do arquivo
+$w\tNome do arquivo sem extensão
+Renomear este item
+${nome}\tGrupo com nome
+$[m-n]\tn-ésimo grupo na m-ésima correspondência
+(?&lt;nome&gt;)\tGrupo com nome
+$L[...]\tConverte tudo para caixa baixa
+$U[...]\tConverte tudo para caixa alta
+$I[...]\tCaixa alta na primeira letra de cada palavra
+Atualizar
+Tudo em caixa baixa
+Tudo em caixa alta
+Caixa alta na primeira letra de cada palavra
+</DialogFileRenamer>
+
+
+<DialogGroup>
+Criar novo grupo
+Nome do Grupo:
+Adicionar todas as guias da janela
+Tem certeza que deseja excluir o grupo &quot;{0}&quot;?
+Excluir grupo
+Tem certeza que deseja excluir o membro &quot;{0}&quot; deste grupo?
+Excluir membro do grupo
+Criar arquivo de grupo
+Arquivo de grupo do QTTabBar
+{0} já existe.\r\nDeseja acrescentar (Sim), ou substituí-lo (Não)?
+</DialogGroup>
+
+
+<DialogKeyFinder>
+[Grupo]
+[Aplicativo]
+[Plugin]
+Teclas
+Ação
+Gênero
+Localizador de atalhos de teclado
+{0} atalho[[|s]]
+[Botões de Comando]
+</DialogKeyFinder>
+
+
+<DialogLibrary>
+Criar nova Biblioteca
+Nome da Biblioteca:
+Adicionar todas as guias da janela
+</DialogLibrary>
+
+
+<DialogVersatileBar>
+Tem certeza que deseja excluir o item &quot;{0}&quot;?
+Remover item da barra versátil
+Editar legenda
+</DialogVersatileBar>
+
+
+<DropHelper>
+Copiar
+Mover
+Adicionar ao menu de Execução de Aplicativos
+</DropHelper>
+
+
+<Global>
+{0} ite[[m|ns]]
+&amp;Abrir
+&amp;Abrir na guia ativa
+Abrir em nova &amp;guia
+Abrir em outra &amp;visualização
+</Global>
+
+
+<GlobalMenu>
+Barras de &amp;ferramentas
+Bloquear b&amp;arras de ferramentas
+Auto-&amp;ocultar as barras de ferramenta
+Auto-&amp;ocultar a barra de ferramenta
+Localizador de atalhos de &amp;teclado...
+Opções de pasta...
+Opções do &amp;QTTabBar...
+Personalizar barras de comandos
+&amp;Branches
+&amp;Adicionar ao menu de aplicativo
+&amp;Cancelar
+Criar um arquivo de &amp;grupo
+Abrir em nova &amp;janela
+&amp;Excluir
+&amp;Remover deste menu
+Abrir &amp;local
+Esta pasta está vazia.
+Criar grupo para guia ativa
+Criar grupo com as guias abertas
+Criar novo grupo...
+Gerenciar grupos...
+&amp;Recortar
+&amp;Copiar
+Co&amp;lar
+Colar &amp;Atalho
+&amp;Excluir
+Re&amp;nomear
+&amp;Propriedades
+Definir &amp;ícone
+Redefinir &amp;ícone
+&amp;Abrir e fechar as outras guias
+&amp;Ajuda
+Abrir na visualização extra (&amp;abaixo)
+Abrir na visualização extra (&amp;esquerda)
+Abrir na visualização &amp;padrão
+</GlobalMenu>
+
+
+<GlobalTokens>
+Arquivos selecionados (aspas dupla, separado por espaço se múltiplo)
+Arquivos selecionados (sem aspas se arquivo único)
+Pastas selecionadas (aspas dupla, separado por espaço se múltipla)
+Pastas selecionadas (sem aspas se pasta única)
+Aquivos e pastas selecionadas (aspas dupla, separado por espaço se múltiplo)
+Aquivos e pastas selecionadas (sem aspas se item único)
+Pasta atual (aspas dupla se contém espaço)
+Pasta atual (sem aspas)
+Pasta selecionada ou pasta atual (aspas dupla se contém espaços)
+Pasta selecionada ou pasta atual (sem aspas)
+Nome do único item selecionado (sem aspas)
+Guia (Origem do evento)
+Endereço da guia (Origem do evento)
+</GlobalTokens>
+
+
+<GlobalToolbar>
+Barra de menus
+Barra de status
+Barra de guias
+Barra de guias (abaixo)
+Barra de comandos
+Barra versátil
+Barra versátil (vertical)
+Visualização extra (abaixo)
+Visualização extra (esquerda)
+</GlobalToolbar>
+
+
+<GlobalTooltip>
+Exibir/ocultar barras de ferramentas
+Bloqueia modificar tamanho e posição das barras de ferramentas
+Oculta automaticamente as barras de ferramentas
+Oculta automaticamente esta barra de ferramenta
+Abre um localizador que mostra uma lista dos atalhos de teclado.
+Abre as opções do Windows Explorer.
+Abre as opções do QTTabBar.
+Outros locais que esta guia passou.
+Cria um novo grupo e adiciona a guia ativa como um membro.
+Cria um novo grupo e adiciona todas as guias como membros.
+Procure uma pasta para criar um novo grupo.
+Abre a janela de opções para gerenciar os grupos.
+Sincroniza as visualizações.
+Sincroniza a rolagem.
+Sincroniza a navegação.
+Procurar pela pasta.
+</GlobalTooltip>
+
+
+<GroupOpener>
+Arquivo de grupo do QTTabBar
+Grupos: 
+Este arquivo está vazio.
+Criar um arquivo de grupo
+</GroupOpener>
+
+
+<IEWarning>
+O QTTabBar não funciona com o Internet Explorer.\r\n\r\nMas se você desabilitar o Add-On aqui, ele deixará de funcionar no Explorador de Arquivos e no Shell também.\r\n\r\nHabilite o QTTabBar e as outras barras nas Opções de Internet neste caso.
+</IEWarning>
+
+
+<NotifyIcon>
+Reabrir todas as janelas
+Fechar todas
+ janela[[|s]]
+</NotifyIcon>
+
+
+<Option>
+Opções do QTTabBar
+N/A
+Padrão
+{0} não está acessível. Gostaria de continuar?
+Pasta inacessível
+Restaurar padrões nesta página
+Escolher cor...
+Definir ícone
+Remover ícone
+Área da imagem sem redimensionamento (Esquerda, Topo, Direita, Fundo)
+</Option>
+
+
+<OptionAppearance>
+Tamanho da Guia
+Largura
+Altura
+Máximo
+Mínimo
+Fixo
+Título da Guia
+Escolher fonte...
+Alinhamento do texto
+Cor do texto
+Ativa
+Inativa
+Sombra do texto
+Texto em negrito na guia ativa
+Deslocamento do texto (X,Y)
+Fundo da guia
+Modo de renderização
+Automático
+Limitar largura
+Esquerda
+Centralizado
+Tema do sistema
+Tema
+Clássico
+Local da imagem:
+Cor de destaque
+Escolher cor...
+Barras de ferramentas
+Cor de fundo das barras
+Cor de fundo da barra versátil vertical
+Cor da barra de guias inferior
+Imagem de fundo das barras
+Posição da imagem
+Menu
+Estilo visual do menu
+Opacidade do menu
+Caracteres máximos no menu
+Exibir atalhos de teclado no menu
+Lado a lado
+Centro (Tamanho real)
+Ajustar
+Estender
+Windows 7
+Windows XP
+Padrão
+Windows 8
+Bai&amp;xar arquivos de temas...
+Espaçamento (Esquerda, Direita)
+Guia
+Aparência da guia
+Barra de ferramentas e menu
+Botão de fechar da guia
+Local da imagem:
+Deslocamento do botão (X,Y)
+Painel de navegação
+Cor de fundo
+Cor do texto
+Ícone de guia bloqueada
+Local da imagem:
+Deslocamento do ícone (X,Y)
+Estilo da fonte da guia ativa
+Negrito
+Itálico
+Tachado
+Sublinhado
+Ícones nas guias
+Deslocamento dos ícones (X,Y)
+Windows 10
+</OptionAppearance>
+
+
+<OptionAppLauncher>
+Nova pasta
+Novo item
+Excluir
+Separador
+Destino
+Argumentos
+Iniciar em
+Atalho do teclado
+Os seguintes argumentos são adicionados com aspas dupla no momento da execução
+Arquivos selecionados
+Pastas selecionadas
+Arquivos e pastas selecionados
+Pasta atual
+Pata atual se não houver seleção
+</OptionAppLauncher>
+
+
+<OptionCommandBar>
+Você pode adicionar ou remover itens arrastando para ou da Barra de Comandos.
+Plugins
+Lista
+Manter botões utilizados na lista
+Imagem para os comandos básicos:
+</OptionCommandBar>
+
+
+<OptionDesktopTool>
+Para habilitar as funções do QT Tab na Área de Trabalho, clique com o botão direito na barra de tarefas e vá em &apos;Barras de Ferramentas&apos;-&gt;&apos;QT Tab Desktop Tool&apos;
+Imagem para menu do Desktop Tool
+Local da imagem:
+Bai&amp;xar arquivos de temas...
+Abrir janela na tela que está trabalhando
+Mover a janela capturadora para a tela que está trabalhando
+Não capturar janelas abertas pelo Desktop Tool
+</OptionDesktopTool>
+
+
+<OptionEvent>
+Comandos executados ao clicar em guias ou na barra de guias.\r\nVincule comandos para diferentes eventos.
+Vincule comandos a eventos de janela ou visualização.
+Interativos
+Outros
+Guias e Barra de Guias
+Exibição de Pasta
+Painel de Navegação
+Barra de Endereços
+Barra de Comandos
+Janela e Barra de Tarefas
+Menu de Grupo
+Navegação com sucesso
+Navegação com falha
+Janela é aberta
+Janela está para fechar
+Menu de Subpasta
+Executar em todos os itens selecionados
+Criar um novo comando...
+Guia ativa foi modificada
+Editar comando atual...
+</OptionEvent>
+
+
+<OptionEventActions>
+Fechar
+Ir à pasta pai
+Fixar
+Exibir menu
+Nova janela
+Clonar
+Copiar endereço
+Propriedades
+Exibir menu de subpasta
+Copiar arquivos selecionados para a guia
+Mover arquivos selecionados para a guia
+Criar atalhos dos arquivos selecionados para a guia
+Mover a guia para a visualização extra (abaixo)
+Mover a guia para a visualização extra (esquerda)
+Mover a guia para a outra visualização
+Procurar pasta e abrir em nova guia
+Fechar outras guias
+Fixar todas as guias
+Reabrir última guia fechada
+Abrir as opções do QTTabBar
+Fechar janela
+Duplicar guia ativa
+Ativar a última guia ativa
+Abrir em nova guia
+Abrir em nova guia em segundo plano
+Navegar na guia ativa
+Abrir em nova guia na visualização extra (abaixo)
+Abrir em nova guia em segundo plano na visualização extra (abaixo)
+Navegar na guia ativa da visualização extra (abaixo)
+Abrir em nova guia na visualização extra (esquerda)
+Abrir em nova guia em segundo plano na visualização extra (esquerda)
+Navegar na guia ativa da visualização extra (esquerda)
+Abrir nova guia na outra visualização
+Abrir nova guia em segundo plano na outra visualização
+Navegar na guia ativa da outra visualização
+Abrir em nova guia na visualização com prioridade
+Abrir em nova guia em segundo plano na visualização com prioridade
+Navegar na guia ativa da visualização com prioridade
+Copiar
+Recortar
+Editar
+Fechar guia
+Minimizar para os ícones de notificação
+Padrão
+Abrir em segundo plano
+Substituir guias
+Substituir guias na visualização extra (abaixo)
+Substituir guias na visualização extra (esquerda)
+Substituir guias na outra visualização
+Colar dentro
+Comando personalizado
+Copiar pasta
+Recortar pasta
+Colar o conteúdo da área de transferência na pasta
+Excluir pasta
+Excluir pasta permanentemente
+Renomear
+Enviar clique para o fundo
+Procurar pasta e abrir em nova guia em segundo plano
+Abrir área de trabalho
+Abrir guia padrão
+</OptionEventActions>
+
+
+<OptionEventSource>
+Clique na guia
+Duplo clique na guia ativa
+Botão do meio na guia
+Botão direito na guia
+Duplo clique na barra de guias
+Botão do meio na barra de guias
+Botão direito na barra de guias
+Clique em um item
+Botão do meio em um item
+Tecla Enter em um item
+Clique em um links de navegação
+Botão do meio em um link de nav.
+Clique em um botão
+Botão do meio em um botão
+Botão de fechar da janela
+&quot;Fechar janela&quot; na Lista de Atalhos
+Clique em um item
+Botão do meio em um item
+Duplo clique em um item
+Botão do meio em um item
+Duplo clique no fundo
+Botão do meio no fundo
+Clique em um item
+Botão do meio em um item
+Tecla enter em um item
+Clique no botão &quot;+&quot;
+</OptionEventSource>
+
+
+<OptionExtraView>
+Extra (abaixo)
+Extra (esquerda)
+Dar prioridade para a visualização
+Exibir painel de detalhes
+Exibir barra de comandos da pasta
+ Guias
+Restaurar última sessão
+Barra de endereços
+Botões de navegação
+Acima
+Abaixo
+Esquerda
+Direita
+Usar a tecla Tab para alternar entre as visualizações caso uma tenha o foco
+Ocultar ao fechar todas as guias
+Iniciar com:
+Redimensionar visualizações automaticamente
+Abrir ao fechar a última guia
+Pesquisar pasta com a caixa de filtro, ao invés de filtrar
+</OptionExtraView>
+
+
+<OptionFolderView>
+Ir à pasta pai com Backspace
+Cursor loop (navegar com as setas ao início/fim da pasta volta ao fim/início)
+Trocar seleção com F2 ao renomear arquivos
+Rolar horizontalmente com Shift+Roda do mouse
+Rolar exibição de pasta sem focar
+Rolar painel de navegação sem focar
+Dica de contexto para nomes maiores que a exibição nas visões de lista e detalhes
+Botão do meio nas pastas na exibição de pasta
+Clique duplo no fundo da exibição de pasta
+Botão do meio no fundo da exibição de pasta
+Visualização de lista compatível
+Não selecionar toda linha, seleção somente no item
+Exibir cabeçalho de colunas em todos os layouts
+Exibir marca d&apos;água no fundo de pastas especias
+Fixar largura das colunas no layout de lista
+Cor para linhas ímpares
+Cor para linhas pares
+Escolher cor de fundo...
+Escolher cor do texto...
+Nova guia
+Nova janela
+Copiar
+Recortar
+Propriedades
+Ir à pasta pai
+Procurar pasta e abrí-la em nova guia
+Clonar guia
+Copiar endereço da pasta atual
+Copiar nome da pasta atual
+Fechar janela
+Fechar guia
+Selecionar tudo
+Inverter seleção
+Criar nova pasta
+Criar novo arquivo txt
+Copiar para pasta...
+Mover para pasta...
+Criar atalhos na pasta...
+Colar
+Cores personalizadas para lista compatível
+Adicionar comando &apos;Definir cores&apos; ao menu de contexto
+Substituir cores de arquivos NTFS criptografados ou compactados
+Endereço, extensão ou Regular Expression
+Condições
+Endereço, extensão (.ext) ou /Regular Expression/i para definir cores:
++
+Atualizar
+Cor do texto
+Cor do fundo
+Tipo
+Linha
+Exibição
+Aplicação
+Ímpar
+Par
+Endereço
+Nome
+Local
+Janelas
+Área de trabalho
+Aplicar cores padrões por linhas
+(não expecificado)
+Auxiliar de Arrastar-e-Soltar
+Exibir para janelas
+Exibir para a área de trabalho
+Exibir para pastas
+Exibir para links de pastas
+Cor de fundo
+Cor de fundo da coluna selecionada
+Colorir sobre cores personalizadas
+Menu de Subpastas
+Cores predefinidas
+Colorir texto de executáveis
+Aviso para caracteres Unicode de controle
+Geral
+Cores personalizadas
+Menu de contexto
+Comandos do QTTabBar
+Adicionar ao menu de contexto de pastas e arquivos
+Adicionar ao menu de contexto do fundo da pasta
+Ações
+Esta opção é necessária quando a captura de janelas está ativa.
+Adicionar comando &quot;Abrir em nova guia&quot; ao menu de contexto
+Rastrear renomeação se especificado pelo endereço.
+Ativa
+Inativa
+Cor do texto
+Marca d&apos;água
+Tipos de Pasta
+Cor da bordar (Windows 8 ou posterior)
+Habilitar pesquisa incremental
+Encontrar no meio do nome do arquivo, não só no começo
+Tempo limite de sessão (ms)
+Esta opção habilita a pesquisa incremental, uma forma mais útil de acesso rápido a pesquisa. Um plugin que implementa uma interface IFilter recebe os caracteres e pode modificar a seleção dos resultados.
+Usar um plugin que implemente uma interface IFilter, se instalado
+Misturar com as cores personalizadas
+Corresponde parcial
+Atalhos
+Seleção com retângulo colorido
+Sincronizar com a cor de destaque do Windows
+Usar cor do sistema
+Escolher cor do sistema
+Cor de destaque
+Cor da área de trabalho
+Luminosidade
+cor de texto dinâmica
+cor de fundo dinâmica
+</OptionFolderView>
+
+
+<OptionGeneral>
+Exibir dicas de contexto em guias e botões
+Exibir dicas de contexto detalhadas e em menus
+Exibir informações do comando na barra de status
+Capturar botões X1/X2 do mouse para Voltar/Avançar
+Inverter botões X1 e X2
+Exibir botões de navegação na barra de guias
+Arquivo de idioma (ajude a tradução em https://github.com/An-dz/QTTabBar.pt_br):
+Botões na esquerda
+Botões na direita
+Baixar arquivo de idioma...
+Criar arquivo de idioma...
+Atualização
+Procurar por atualizações automaticamente
+Ignorar versões beta
+Verificar atualização...
+Gerenciamento das opções
+Rede
+Tempo limite para conexões de rede, em segundos
+Tentar acesso até exceder o tempo limite
+</OptionGeneral>
+
+
+<OptionGenre>
+Geral
+Histórico
+Guias
+Janela
+Barra de Ferramenta
+Eventos
+Arrastar &amp; Soltar
+Exibição da Pasta
+Exibição Compatível
+Visualizações Extras
+Aparência
+Grupos
+Execução de aplicativos
+Botões e comandos
+Plugins
+Atalhos de Teclado
+Visualização
+Menu de Subpasta
+Área de Trabalho
+Sons
+Outros
+</OptionGenre>
+
+
+<OptionGroup>
+Nova Pasta
+Novo Grupo
+Excluir
+Separador
+Grupo Inicial
+Atalho de teclado para grupo
+Fechar todas as guias ao abrir grupo
+Adicionar comandos de gerenciamento no menu de grupos
+Adicionar comandos de gerenciamento no menu de contexto no menu de grupos
+Exibir sub-itens em um menu suspenso
+Exibir menu de subpasta para sub-itens
+Título da guia de um grupo inicial
+Local para iniciar um grupo inicial
+Sublinhado
+Itálico
+Direita das outras guias
+Esquerda das outras guias
+Fixar
+Cor para o grupo
+Indicador de cor do grupo
+Nuvem
+Preenchido
+Triângulo (Direita)
+Triângulo (Esquerda)
+Aplicar cores nos menus de grupo
+Editar
+Opções
+</OptionGroup>
+
+
+<OptionHistory>
+Guias recentes
+Máximo de itens no histórico
+Ação para adicionar ao histórico
+Limpar ao fazer logoff
+Arquivos recentes
+Salvar aplicativos da lista de aplicativos
+Salvar da lista de aplicativos com argumentos
+Adicionar executáveis (.exe) separadamente
+Fechar guia
+Abrir guia
+Navegação
+Abrir e navegação
+Permitir duplicatas
+Organizar em ordem alfabética
+</OptionHistory>
+
+
+<OptionKeyShortcuts>
+Copiar a área de transferência
+Recolher todas
+Ação
+Teclas
+Guias e Navegação
+Janela e Barras de Ferramentas
+Menu
+Ações de edição
+Visualização de mídia
+Diversos
+Plugin
+Permitir atalhos sem teclas modificadoras (Shift, Ctrl, Alt)
+&quot;{0}&quot; já está associado com &quot;{1}&quot;.\r\n\r\nGostaria reassociar para o novo comando?
+Confirmação de reassociação
+(Shift+Esc)
+* Atalhos que podem ser definidos para enviar para o sistema ou outros programas com Shift+Esc
+Exibição da pasta
+Visualizações extras e sincronização
+QTTabBar - Foco
+</OptionKeyShortcuts>
+
+
+<OptionMiscs>
+Exportar opções periódicamente
+Intervalo (dias)
+Pasta
+Exportar opções...
+Restaurar padrões...
+Barra de tarefas
+Separar botão na barra de tarefas que representa esta janela de opções
+Separar botão na barra de tarefas que representa a janela de visualização de hash
+Doações
+Re-exibir erros desabilitados
+ATENÇÃO:\r\n\r\n&apos;SIM&apos; restaura todas as opções incluindo os Grupos e Aplicativos registrados, e desinstala os Plugins.\r\n\r\n&apos;NÃO&apos; restaura todas as opções mas mantém os Grupos, Aplicativos e Plugins intactos.\r\n\r\nAs opções restauradas não terão efeito se até clicar em OK ou Aplicar.
+Restaurar configurações padrões
+Sugestões &amp;&amp; Reportar Bugs
+Importar opções...
+Excluir histórico do AutoCompletar
+Recriar cache de ícones do shell
+Limpar preferências de tamanho, posição e exibição da janela
+Salvar posição dos ícones na área de trabalho
+Restaurar posição dos ícones na área de trabalho
+Excluir MRUs (Recentemente Utilizados)
+Executar (menu iniciar)
+Endereços da barra de endereços
+Sugestões de pesquisa
+Itens recentes do menu iniciar
+Programas recentes do menu iniciar
+Shell
+Scripting
+Visualização padrão caso o comando não especifique uma:
+Com Foco
+Padrão
+Ocultar uma janela transparente de um processo diferente que previne interação com a janela (não recomendado)
+</OptionMiscs>
+
+
+<OptionPlugin>
+Instalar plugin
+Opções
+Desabilitar
+Habilitar
+Desinstalar
+Sobre {0}
+Estes plugins também serão desinstalados:\r\n\r\n {0}\r\n\r\nClique OK para desinstalar todos.
+</OptionPlugin>
+
+
+<OptionPreview>
+Exibir visualização na dica de contexto
+Exibir informações do arquivo abaixo da visualização
+Habilitar para arquivos na rede
+Habilitar para arquivos em pastas comprimidas
+Exibir somente com a tecla Shift pressionada
+Exibir mesmo se a janela não estiver em foco
+Tentar obter miniatura EXIF (mais rápido mas com menor qualidade)
+Salvar pontos de execução de vídeos e músicas
+Exibir no canto inferior direito
+Tentar exibir no tamanho real
+Tamanho das visualizações
+Largura/altura máxima para imagem
+Largura/altura máxima para vídeos
+Largura/altura máxima para textos
+Leitura máxima de texto em KiB
+Fonte na vis. de texto
+Escolher fonte...
+Extensão dos arquivos
+Imagens
+Música e Vídeos
+Textos
+Adicionar
+Excluir
+Opacidade da janela
+Memória máxima utilizada pelo cache de imagem, em MiB
+Limpar cache de imagem
+Volume do som em vídeos e músicas
+Tempo para exibir a primeira visualização, em ms
+Tela Cheia
+Tela para tela cheia
+Tela para exibir
+Tela atual
+Próxima
+Anterior
+Fixa
+Tentar exibir no tamanho máximo especificado
+Cor do texto
+Cor do fundo
+Informação do arquivo
+Auto-ocultar
+Sempre visível
+Usar aceleração de hardware se disponível
+Apresentação de slides em tela cheia. Duração do slide, em ms:
+Tela cheia é acessada por um atalho de teclado (Padrão: numpad &apos;.&apos;)
+Geral
+Extensões, fonte e cor
+Tamanho
+Não utilizar aceleração de hardware para H.264 em sub-monitores (em caso de travas)
+</OptionPreview>
+
+
+<OptionSearchOpt>
+Resultado da busca
+Grupo
+Preferência
+</OptionSearchOpt>
+
+
+<OptionSound>
+Reproduzir sons em erros e avisos
+Sons ao navegar
+Sons para reproduzir ao utilizar atalhos de taclado dessas ações:
+Reproduzir ao copiar
+Reproduzir ao recortar
+Reproduzir ao colar
+Reproduzir ao excluir
+Sempre reproduzir
+Somente na navegação na guia ativa
+Sem som
+Executar na sessão de áudio do sistema
+</OptionSound>
+
+
+<OptionSubFolderMenu>
+Habilitar menu de subpastas
+Exibir arquivos
+Exibir arquivos ocultos
+Exibir arquivos do sistema
+Exibir visualização de mídia
+Exibir ícone de acesso somente com a tecla Shift pressionada
+Exibir inclusive se a janela não tiver foco
+Em arquivos de grupo pular o nome do grupo e exibir direto os membros
+Exibir ao arrastar arquivos e pastas em pasta
+Habilitar para pastas comprimidas
+Exibir ícone nas outras pastas enquanto um menu estiver aberto
+Em Bibliotecas separar por pastas
+Habilitar para itens na barra versátil
+Habilitar para itens na barra versátil vertical
+Opacidade do menu
+Tempo para exibir menu ao arrastar objetos sobre pasta, em ms
+Tempo para exibir a visualização de mídia, em ms
+Classificação dos itens
+Extensão do arquivo
+Nome do arquivo
+Data de modificação
+Data de modificação (antigos no topo)
+Utilizar cores da exibição de pasta
+</OptionSubFolderMenu>
+
+
+<OptionTab>
+Abrir nova guia
+Ao fechar a guia ativa, ativar a guia
+Linhas de guias
+Mouse sobre guia enquanto arrasta objetos
+Ação padrão ao arrastar
+Guia como destino de arrastar-e-soltar
+Não permitir arrastar-e-soltar de uma guia para outra
+Não permitir arrastar-e-soltar de uma guia para a barra
+Alternar para nova guia quando criada
+Não duplicar guia se Ctrl não for pressionado
+Permitir duplicar guia ao arrastar-e-soltar
+Exibir número da guia
+Diferenciar guias com mesmo nome automaticamente
+Remover guia original da janela quando criá-la em uma nova janela
+Alternar guia ativa com a roda do mouse
+Animar guias
+Tempo para abrir guia ao arrastar, em ms
+Fator da animação (Maior mais rápido)
+à direita de todas as guias
+à esquerda de todas as guias
+à direita da ativa
+à esquerda da ativa
+última ativa
+Múltiplas linhas, linha da guia ativa abaixo
+Múltiplas linhas, linhas fixas em seus locais
+Uma linha, adiciona botões de navegação
+Exibir menu de subpastas
+Abrir guia
+Padrão do sistema
+Copiar
+Mover
+Colar atalho
+Exibir botões de fechar nas guias
+Somente ao segurar a tecla Alt
+Somente ao passar o mouse sobre a guia
+Exibir ícone da pasta na guia
+Exibir &apos;menu de subpastas&apos; ao clicar no ícone da guia
+Ampliar área para abrir o &apos;menu de subpastas&apos;
+Indicar letra do disco
+Guias fixadas
+Não permitir ativar outra guia (abre guia em outra janela)
+Não permitir navegação (mantém na pasta atual)
+Não permitir fechar a guia
+Exibir lista de guias com Ctrl+Tab
+Renderizar com o estilo Aero (Transparência)
+Guias na direita da barra
+Guia como origem de arrastar-e-soltar
+Copiar, mover ou criar atalho
+Criar nova janela
+Aceitar soltar da mesma barra de guias
+Barra de guias como destino de arrastar-e-soltar
+Aceitar guias da mesma barra de guias
+Número de itens exibidos sem rolar
+Comportamento padrão (inverte com a tecla Alt)
+Fechar a guia quando a navegação falhar
+Geral
+Comportamento
+Alternar guias clicando com o botão direito e rolando com a roda do mouse
+Exibir um botão &quot;+&quot; na barra de guias
+</OptionTab>
+
+
+<OptionToolbar>
+Ocultar automaticamente as barras de ferramenta
+Exibir ao modificar guias
+Exibir quando a janela estiver maximizada
+Não exibir se o mouse estiver próximo
+Tempo para auto-esconder, em ms
+Tempo para auto-exibir, em ms
+Colocar a barra de guias inferior abaixo da barra versátil vertical
+Quando houver somente uma guia
+Dar prioridade para
+Alinhar posição das guias (acima) com a visualização padrão
+</OptionToolbar>
+
+
+<OptionTooltip>
+Abrir o website: http://qttabbar.wikidot.com/
+Ctrl+seta para cima
+Ctrl+seta para baixo
+Define o grupo para iniciar com as novas janelas
+Cria um arquivo de grupo para os itens selecionados.\r\nArquivo de grupo é um atalho para o(s) grupo(s).
+Irá lhe perguntar como restaurar para a opção padrão.
+Usada quando a miniatura é menor que 256px de altura/largura.
+Pode ser fechada segurando a tecla Shift
+0 = sem limite
+Procurar arquivo...
+Procurar pasta...
+Selecionar argumentos...
+As teclas numpad +/- estão disponíveis enquanto reproduz.
+Libera memória que mantém o cache.
+Utilizando a exibição compatível no XP ou superior, as opções &apos;Organizar ícones automaticamente&apos; e &apos;Alinhar ícones à grade&apos; ficam disponíveis.
+Permite arrastar objetos para guias para colar, mover ou criar atalho.
+Não permite arrastar uma guia para outra para colar, mover ou criar atalho.
+Não permite arrastar uma guia para a barra de guias para clonar.
+Define o estado fixado/desafixado inicial da guia.
+Remover item selecionado.
+Pesquisar pasta e arquivo.
+Especifique uma imagem que o número de pixels na vertical é múltiplo de 4.\r\nEla deve conter, de cima para baixo, a imagem normal, com o mouse sobre, pressionada e com a tecla alt pressionada.
+Escolher ou criar um comando para executar.
+Abrir ajuda sobre esta página.
+</OptionTooltip>
+
+
+<OptionWindow>
+Capturar novas janelas
+Colocar nos ícones de notificação ao minimizar
+Não permitir redimensionar
+Salvar opacidade entre sessões
+Salvar estado da janela estar sempre visível
+Ocultar barra de menu
+Redimensionar a janela conforme a quantidade de linhas de guia
+Maximizar horizontalmente ao dar clique duplo nas bordas laterais
+Continuar do ponto que parei
+Continuar somente com as abas fixadas
+Somente para a primeira janela
+Abrir a seguinte pasta ao fechar a última guia
+Prevenir guia de ser fechada
+Abrir janela na tela que está trabalhando
+Mover a janela capturadora para a tela que está trabalhando
+Capturar janelas de ShellExecuteHooks (para Windows Pro; requer logoff)
+Capturar Win+E
+Ao abrir uma nova janela definir foco
+Painel de navegação
+Barra de endereço
+Caixa de pesquisa
+Guia ativa
+Caixa de filtro
+Captura
+Você pode soltar pastas e guias para adicioná-las a lista de exclusão.
+Endereço da pasta excluída
+Captura na visualização:
+Captura e Lista de Exclusão
+Não capturar da área de trabalho
+Quando a janela estiver em outra área de trabalho:
+Abrir nova janela na área de trabalho atual
+Trocar para a área de trabalho com a janela
+Trazer a janela para a àrea de trabalho atual
+</OptionWindow>
+
+
+<ShellContextMenu>
+Comandos do QTTabBar
+Copiar na guia...
+Mover para guia...
+Criar atalho na guia...
+Copiar na pasta...
+Mover para pasta...
+Criar atalho na pasta...
+Copiar da pasta...
+Mover da pasta...
+Criar atalho da pasta...
+Copiar estrutura da pasta para guia...
+Renomeação avançada
+Colar nas pastas selecionadas
+</ShellContextMenu>
+
+
+<ShortcutKeyName>
+Voltar (Alt+seta para esquerda)
+Avançar (Alt+seta para direita)
+Voltar ao início
+Avançar ao final
+Ativar próxima guia
+Ativar guia anterior
+Ativar primeira guia
+Ativar última guia
+Fechar guia
+Fechar outras guias
+Fechar à esquerda
+Fechar à direita
+Fechar janela (Alt+F4)
+Reabrir guia fechada
+Clonar guia
+Abrir guia em nova janela
+Fixar/desafixar guia
+Fixar/desafixar todas as guias
+Procurar pasta e abrir em nova guia
+Criar novo grupo
+Abrir opções
+Exibir menu da barra de guias
+Exibir menu da guia
+Exibir menu de grupos (barra de comandos)
+Exibir pastas recentes (barra de comandos)
+Exibir menu de aplicativos (barra de comandos)
+Exibir/ocultar barra de menu
+Copiar endereço dos arquivos selecionados
+Copiar nome dos arquivos selecionados
+Copiar endereço da pasta atual
+Copiar nome da pasta atual
+Calcular hash dos arquivos selecionados
+Calcular hash dos arquivos selecionados e copiar (sem janela)
+Sempre visível
+Transparência +
+Transparência -
+Focar exibição de pasta
+Focar pesquisa do Windows
+Focar painel de navegação
+Focar a barra de guias
+Focar a barra versátil vertical
+Exibir o menu de subpasta para a seleção
+Forçar visualização para arquivo selecionado
+Enviar janela para os ícones de notificação
+Excluir seleção (Del)
+Excluir permanentemente a seleção (Shift+Del)
+Inverter seleção
+Excluir pasta atual
+Copiar pasta atual
+Recortar pasta atual
+Colar atalhos
+Criar nova pasta
+Criar novo arquivo txt
+Criar novo atalho
+Copiar para pasta...
+Mover para pasta...
+Copiar para guia...
+Mover para guia...
+Criar atalhos na guia...
+Copia a seleção para guia anterior
+Move a seleção para guia anterior
+Cria atalhos da seleção na guia anterior
+Copia a seleção para próxima guia
+Move a seleção para próxima guia
+Cria atalhos da seleção na próxima guia
+Copiar de uma pasta...
+Mover de uma pasta...
+Criar atalhos de uma pasta...
+Copiar da guia anterior...
+Mover da guia anterior...
+Criar atalhos da guia anterior...
+Copiar da próxima guia...
+Mover da próxima guia...
+Criar atalhos da próxima guia...
+Exibir/ocultar barra de comandos
+Exibir/ocultar barra versátil
+Exibir/ocultar barra versátil vertical
+Exibir/ocultar barra de status
+Unir as guias das outras janelas
+Criar biblioteca
+Abrir o Localizador de atalhos do teclado
+Exibir menu de arquivos recentes (barra de comandos)
+Ativar a última guia ativa
+Criar nova pasta e abrir guia para ela
+Aumenta volume (numpad +)
+Diminuir volume (numpad -)
+Mudo (numpad 0)
+Reduzir velocidade (numpad 1)
+Resetar velocidade (numpad 2)
+Aumentar velocidade (numpad 3)
+Voltar (numpad 4)
+Pausar (numpad 5)
+Avançar (numpad 6)
+Diminuir janela (numpad 7)
+Alternar entre tamanho real (numpad /)
+Aumentar janela (numpad 9)
+Tamanho real
+Alternar canto/próximo ao mouse (numpad *)
+Tela cheia (numpad .)
+Renomear pasta atual
+Focar caixa de filtro
+Maximizar janela horizontalmente
+Personalizar barra de comandos
+Mover cursor para esquerda
+Mover cursor para cima
+Mover cursor para direita
+Mover cursor para baixo
+Esconder barras de ferramentas
+Exibir barras de ferramentas
+Exibir/ocultar barras de ferramentas
+Exibir/ocultar barra de guias
+Exibir/ocultar barra de guias inferior
+Mover guia atual para esquerda
+Mover guia atual para direita
+Alternar barra de guias acima/abaixo
+Exibir histórico da guia ativa
+Restaurar guias da última janela fechada
+Limpar histórico de guias
+Limpar histórico de arquivos
+Fixar Visualização em tela cheia
+Tocar música anterior
+Tocar próxima música
+Mover tela cheia para tela anterior
+Mover tela cheia para próxima tela
+Exibir janela de Renomear
+Ícones extra grandes
+Ícones grandes
+Ícones médios
+Ícones pequenos
+Lista
+Detalhes
+Blocos
+Conteúdo
+Classificar por Nome
+Classificar por Tamanho
+Classificar por Tipo
+Classificar por Data de Modificação
+Colar nas pastas selecionadas
+Mostrar/Ocultar Visualização Extra (abaixo)
+Mostrar/Ocultar Visualização Extra (esquerda)
+Focar na Visualização Extra (abaixo)
+Focar na Visualização Extra (esquerda)
+Copiar para Visualização Extra (abaixo)
+Copiar para Visualização Extra (equerda)
+Copiar para Visualização Padrão
+Mover para Visualização Extra (abaixo)
+Mover para Visualização Extra (esquerda)
+Mover para Visualização Padrão
+Criar atalhos dos arquivos selecionados na visualização extra (abaixo)
+Criar atalhos dos arquivos selecionados na visualização extra (esquerda)
+Criar atalhos dos arquivos selecionados na visualização padrão
+Iniciar/Parar a sincronização da rolagem das visualizações
+Iniciar/Parar a sincronização da navegação das visualizações
+Sincronizar local da outra visualização com a da ativa
+Sincronizar local da visualização ativa com a da outra
+Copiar seleção para outra visualização (da visualização padrão para a visualização com prioridade se ambas estão ativas, e de uma extra para a padrão)
+Mover seleção para outra visualização (da visualização padrão para a visualização com prioridade se ambas estão ativas, e de uma extra para a padrão)
+Criar atalhos da seleção para outra visualização (da visualização padrão para a visualização com prioridade se ambas estão ativas, e de uma extra para a padrão)
+Focar próxima área de visualização
+Focar caixa de filtro
+Mover guia ativa para visualização padrão
+Mover guia ativa para visualização extra (abaixo)
+Mover guia ativa para visualização extra (esquerda)
+Mover guia ativa para outra visualização (da padrão para a com prioridade se ambas estiverem ativas, e da extra para a padrão)
+Sincronizar local de todas as visualizações com a em foco
+Focar 1ª guia na visualização com foco
+Focar 2ª guia na visualização com foco
+Focar 3ª guia na visualização com foco
+Focar 4ª guia na visualização com foco
+Focar 5ª guia na visualização com foco
+Focar 6ª guia na visualização com foco
+Focar 7ª guia na visualização com foco
+Focar 8ª guia na visualização com foco
+Focar 9ª guia na visualização com foco
+Focar 10ª guia na visualização com foco
+Selecionar correspondência anterior (pesquisa incremental)
+Selecionar próxima correspondência (pesquisa incremental)
+Selecionar todas as correspondências (pesquisa incremental)
+</ShortcutKeyName>
+
+
+<TabBar>
+Esta pasta foi recortada.
+Esta pasta não pode ser copiada.
+Esta pasta não pode ser recortada.
+Esta pasta não pode ser excluída.
+Um item não pode ser excluído.
+Colado para esta pasta.
+Falhou ao colar para esta pasta.
+</TabBar>
+
+
+<TabBarDragAndDrop>
+Copiar para:
+Mover para:
+Criar atalho em:
+Copiar para {0}
+Mover para {0}
+Criar atalho em {0}
+Excluir permanentemente
+Criar guia aqui
+Mover guia aqui
+Abrir em nova janela
+Duplicação não permitida.
+Abrir o grupo aqui
+</TabBarDragAndDrop>
+
+
+<TabBarMenu>
+&amp;Fechar
+Fechar à &amp;direita
+Fechar à &amp;esquerda
+Fechar &amp;outras guias
+Adicionar ao &amp;grupo
+Criar novo &amp;grupo...
+Adicionar a &amp;biblioteca
+Criar nova &amp;biblioteca...
+Fi&amp;xar
+De&amp;safixar
+Ró&amp;tulo...
+&amp;Clonar guia
+Abrir em nova &amp;janela
+Copiar &amp;endereço
+A&amp;ções para guia ativa
+&amp;Histórico da guia
+&amp;Grupos
+Guias &amp;recentes
+Ar&amp;quivos recentes
+Última guia a&amp;tiva
+Proc&amp;urar pasta...
+Fechar todas &amp;menos atual
+&amp;Fechar janela
+&amp;Unir as guias das outras janelas.
+&amp;Classificar guias
+Re&amp;abrir guias da última janela
+Re&amp;abrir guia fechada
+Fechar este gru&amp;po
+Fechar guias fora deste gru&amp;po
+Abrir este gru&amp;po em uma nova janela
+Fechar &amp;todas as guias
+Alinhar posição &amp;horizontal com a visualização padrão
+</TabBarMenu>
+
+
+<TabBarMenuOrder>
+&amp;Nome
+&amp;Endereço
+&amp;Utilização
+&amp;Inverter
+</TabBarMenuOrder>
+
+
+<TabBarMenuViewActions>
+Selecionar &amp;tudo
+&amp;Inverter seleção
+Criar &amp;atalho
+&amp;Copiar para pasta...
+&amp;Mover para pasta...
+&amp;Copiar para guia...
+&amp;Mover para guia...
+Criar &amp;atalho na guia...
+&amp;Copiar de uma pasta...
+&amp;Mover de uma pasta...
+Criar &amp;atalhos de uma pasta...
+&amp;Renomear itens...
+</TabBarMenuViewActions>
+
+
+<TabBarTooltip>
+Fecha a guia
+Fecha todas as guias à direita desta
+Fecha todas as guias à esquerda desta
+Fecha todas as guias menos esta
+Escolha um grupo para adicionar esta guia
+Cria um novo grupo tendo esta guia como membro
+Escolha uma biblioteca para adicionar esta guia
+Cria uma nova biblioteca tendo esta guia como membro
+Fixa ou desafixa a guia
+Definir rótulo temporário para guia
+Clona esta guia
+Abre esta guia em outra janela
+Copia o endereço da pasta na área de transferência
+Menu de comandos para a pasta atual
+Recorta a pasta representada por esta guia
+Copia a pasta representada por esta guia
+Cola os dados da área de transferência para esta guia
+Cria atalhos dos itens da área de transferência para esta guia
+Exclui a pasta representada pela guia
+Renomeia a pasta representada pela guia
+Abre as propriedades da pasta representada pela guia
+Histórico das pastas abertas nesta guia
+Ativar a última guia ativa
+Procurar pasta para adicionar como guia
+Fecha todas as guia menos esta
+Fecha esta janela, fechando todas as guias dela
+Move todas as guias de outras janelas para esta fechando as outras janelas
+Menu para reorganizar a ordem das guias
+Organizar por nome
+Organizar por endereço
+Organizar por ordem de utilização
+Inverte a ordem das guias
+Restaura as guias da última janela fechada
+Reabre a última guia fechada
+Fecha todas as guias que pertencem a este grupo
+Fecha todas as guias fora deste grupo
+Abre as guias deste grupo em uma nova janela
+Fecha todas as guias nesta visualização extra
+Alinha as guias para ficarem somente sobre a visualização padrão
+</TabBarTooltip>
+
+
+<TabBarTooltipViewActions>
+Seleciona todos os objetos na pasta.
+Inverte entre os objetos selecionados e os que não estão.
+Cria atalhos para os objetos selecionados.
+Copia os objetos selecionados para outro local.
+Move os objetos selecionados para outro local.
+Copia os objetos selecionados para outra guia.
+Move os objetos selecionados para outra guia.
+Cria atalhos dos objetos selecionados para outra guia.
+Escolha arquivos e pastas para copiar para esta guia.
+Escolha arquivos e pastas para mover para esta guia.
+Escolha arquivos e pastas para criar atalhos nesta guia.
+Exibir janela de Renomear para esta pasta.
+</TabBarTooltipViewActions>
+
+
+<VersatileBarMenu>
+&amp;Adicionar item
+Adicionar &amp;grupo
+Adicionar todos os grupos
+Adicionar &amp;aplicativo
+Adicionar &amp;pastas e arquivos
+Adicionar todos os &amp;discos
+Adicionar &amp;separador
+&amp;Legendas
+Alternar &amp;legendas
+Legenda &amp;antes do ícone
+Legenda &amp;depois do ícone
+&amp;Tamanho do ícone
+Ícones &amp;pequenos
+Ícones &amp;médios
+Ícones &amp;grandes
+Ícones &amp;extra grandes
+&amp;Bloquear itens
+Abrir na g&amp;uia atual
+Exibir &amp;legenda
+&amp;Editar legenda
+Re&amp;mover da barra
+Group: 
+Argumentos: 
+Iniciar em: 
+Permitir &amp;arrastar itens
+Permitir soltar em itens irmãos
+&amp;Gigante
+Abrir em nova &amp;guia
+Abrir em guia no &amp;segundo plano
+E&amp;xecutar
+&amp;Editar
+Ícones &amp;24 pixels
+Ícones &amp;32 pixels
+Criar &amp;novo...
+Atalhos de &amp;shell
+E&amp;xportar...
+Adicionar botão de &amp;plugin
+Adicionar pasta &amp;virtual
+</VersatileBarMenu>
+
+
+<ViewColor>
+Definir cores
+</ViewColor>
+
+
+<ViewSync>
+Sincronizar visualizações
+Rolagem
+Navegação
+A sincronização da navegação foi cancelada.
+</ViewSync>
+
+
+<UserInitialization>
+Pastas do Sistema
+Pastas de Usuário
+Drivers
+Alternar visualização extra (abaixo)
+Alternar visualização extra (esquerda)
+Renomear...
+</UserInitialization>
+
+
+<!--DATA END-->
+
+</root>
